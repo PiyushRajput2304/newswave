@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+
 import React, {useEffect, useState} from 'react'
 import NewsItem from './NewsItem'
 import Spinner from './Spinner';
@@ -79,7 +79,7 @@ News.defaultProps = {
     country: 'in',
     pageSize: 8,
     category: 'general',
-    apiKey: "e47fd6739b4d404fbb04a107cf686c1f",
+    apiKey:'e47fd6739b4d404fbb04a107cf686c1f',
     setProgress: () => {}
 }
 
