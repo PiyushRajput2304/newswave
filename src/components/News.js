@@ -79,7 +79,7 @@ News.defaultProps = {
     country: 'in',
     pageSize: 8,
     category: 'general',
-    apiKey:'e47fd6739b4d404fbb04a107cf686c1f',
+    
     setProgress: () => {}
 }
 
@@ -88,7 +88,7 @@ News.propTypes = {
     pageSize: PropTypes.number,
     category: PropTypes.string,
     setProgress: PropTypes.func,
-    apiKey: PropTypes.string
+    
   
 }
 
